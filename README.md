@@ -6,10 +6,10 @@
 
 Colombia Royale es un proyecto desarrollado en JavaScript que recrea la esencia del juego Clash Royale, pero adaptado con un estilo, personajes y temática más colombiana.
 A diferencia del juego original, este proyecto introduce:
-> - Cartas inspiradas en personajes colombianos.
-> - Arena con escenarios inspirados en la Universidad Nacional de Colombia.
-> - IA rival simplificada pero funcional.
-> - Uso de estructuras de datos implementadas manualmente (matrices dispersas, árboles de decisión, colas, diccionarios).
+ - Cartas inspiradas en personajes colombianos.
+ - Arena con escenarios inspirados en la Universidad Nacional de Colombia.
+ - IA rival simplificada pero funcional.
+ - Uso de estructuras de datos implementadas manualmente (matrices dispersas, árboles de decisión, colas, diccionarios).
 **Este proyecto fue desarrollado para la materia de Estructuras de Datos en la Universidad Nacional de Colombia.**
 
 #### 1. Diccionario (Hash Map)
@@ -22,7 +22,7 @@ Almacenar la información estática de todas las cartas del juego. Permite acces
 ##### Ejemplo de Uso:
 Cuando el jugador selecciona la carta "Indio", el sistema busca:
 
-**cardsData["indio"]*
+**cardsData["indio"]**
 para instanciar la unidad con sus estadísticas base sin tener que recorrer un array.
 
 #### 2. Matriz Dispersa (Sparse Matrix)
@@ -32,17 +32,15 @@ Utiliza un Map interno donde las claves son cadenas compuestas por coordenadas:
 "fila,columna"
 
 ##### Propósito:
-
 Gestionar el mapa de colisiones y zonas lógicas (río, puentes) de la arena.
-Eficiencia de Memoria: Solo se almacenan en memoria las celdas que contienen obstáculos (Río = 1, Puente = 2). Las celdas vacías (caminables) no ocupan espacio.
-Lógica de Pathfinding: Las unidades consultan esta matriz para saber si pueden caminar o si deben buscar un puente.
+- Eficiencia de Memoria: Solo se almacenan en memoria las celdas que contienen obstáculos (Río = 1, Puente = 2). Las celdas vacías (caminables) no ocupan espacio.
+- Lógica de Pathfinding: Las unidades consultan esta matriz para saber si pueden caminar o si deben buscar un puente.
 
 #### 3. Árbol de Decisiones (Decision Tree)
 ##### Implementación:
 Función updateEnemyAI() en game.js.
 
 ##### Propósito:
-
 Controlar la Inteligencia Artificial del rival. Evalúa el estado del juego en cada ciclo y toma decisiones ramificadas:
 
 - Nodo Raíz: ¿Tengo suficiente elixir?
