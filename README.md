@@ -10,6 +10,7 @@ A diferencia del juego original, este proyecto introduce:
  - Arena con escenarios inspirados en la Universidad Nacional de Colombia.
  - IA rival simplificada pero funcional.
  - Uso de estructuras de datos implementadas manualmente (matrices dispersas, árboles de decisión, colas, diccionarios).
+
 **Este proyecto fue desarrollado para la materia de Estructuras de Datos en la Universidad Nacional de Colombia.**
 
 #### 1. Diccionario (Hash Map)
