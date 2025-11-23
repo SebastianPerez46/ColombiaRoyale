@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Colombia Royale</title>
+    
+    <!-- Google Fonts: Roboto y Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Vinculamos la hoja de estilos -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <div id="game-container">
+
+        <!-- 1. PANTALLA DE CARGA -->
+        <div id="loading-screen" class="screen active">
+            <div class="loading-title-container">
+                <h1>COLOMBIA<br>ROYALE</h1>
+                <p>Cargando...</p>
+            </div>
+            <div class="loading-bottom">
+                <div class="loading-bar-container">
+                    <div class="loading-bar-fill"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. MENÚ PRINCIPAL (Lobby) -->
+        <div id="main-menu" class="screen hidden">
+            <!-- Capa de UI -->
+            <div class="ui-layer">
+                <div class="top-bar">
+                    <span>Victorias: <span id="wins-count">0</span></span>
+                    <span>Derrotas: <span id="losses-count">0</span></span>
+                </div>
+                
+                <!-- PREVIEW DE ARENA CENTRAL -->
+                <div id="arena-preview-container" class="arena-central-display">
+                    <p class="arena-label">Arena Actual</p>
+                    <!-- La imagen se pone por JS -->
+                    <div id="current-arena-img" class="arena-thumbnail glow-effect"></div>
+                    <p id="arena-name-display">Plaza Ché</p>
+                </div>
+
+                <div class="bottom-controls">
+                    <!-- Botón Jugar -->
+                    <button id="btn-play" class="btn-juicy big-btn">¡A PELEAR!</button>
+                    <!-- Botón para ir al Mazo -->
+                    <button id="btn-deck-view" class="btn-juicy small-btn">Ver Mazo</button>
+                </div>
+            </div>
+
+            <!-- MODAL DE SELECCIÓN DE ARENA (Oculto por defecto) -->
+            <div id="arena-selector-modal" class="modal-overlay hidden">
+                <div class="modal-content">
+                    <h2>ELIGE TU CAMPO</h2>
+                    <!-- Formación Triángulo Invertido -->
+                    <div class="arena-triangle">
+                        <!-- Fila Superior (2 arenas) -->
+                        <div class="arena-row top">
+                            <div class="arena-option" data-arena="ingenieria">
+                                <div class="option-img" style="background-image: url('assets/img/arenas/ing.jpg');"></div>
+                                <span>Ingeniería</span>
+                            </div>
+                            <div class="arena-option" data-arena="medicina">
+                                <div class="option-img" style="background-image: url('assets/img/arenas/med.jpg');"></div>
+                                <span>Medicina</span>
+                            </div>
+                        </div>
+                        <!-- Fila Inferior (1 arena) -->
+                        <div class="arena-row bottom">
+                            <div class="arena-option" data-arena="plaza_che">
+                                <div class="option-img" style="background-image: url('assets/img/arenas/che.jpg');"></div>
+                                <span>Plaza Ché</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="btn-close-arena" class="btn-juicy small-btn" style="background-color: #e74c3c; margin-top: 20px;">Cerrar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. PANTALLA DE MAZO -->
+        <div id="deck-screen" class="screen hidden">
+            <div id="my-deck-area">
+                <div class="deck-grid-info">
+                    TU MAZO (<span id="deck-count">0</span>/6)
+                </div>
+                <div class="cards-grid" id="current-deck-grid"></div>
+            </div>
+
+            <div id="collection-area">
+                 <div class="deck-grid-info">COLECCIÓN DE CARTAS</div>
+                 <div class="cards-grid" id="collection-grid"></div>
+            </div>
+            
+            <div class="bottom-controls" style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding-top: 10px;">
+                
+                <button id="btn-random-deck" class="btn-juicy small-btn">Aleatorio</button>
+
+                <div style="display: flex; gap: 15px;">
+                    <button id="btn-back-menu" class="btn-juicy small-btn" style="background-color: #e74c3c;">Cancelar</button>
+                    <button id="btn-confirm-deck" class="btn-juicy small-btn" style="background-color: #2ecc71;">Confirmar</button>
+                </div>
+
+            </div>
+        </div> <!-- ¡ESTE DIV FALTABA! Cierra la pantalla de mazo -->
+
+        <!-- 4. PANTALLA DE JUEGO -->
+        <div id="gameplay-screen" class="screen hidden">
+            <canvas id="game-canvas" width="720" height="1280"></canvas>
+            <div class="game-ui">
+                <div class="top-info">
+                    <div class="time-box" id="game-timer">03:00</div>
+                </div>
+
+                <div class="bottom-hand">
+                    <div class="elixir-bar-container">
+                        <div class="elixir-fill" id="elixir-bar"></div>
+                        <span id="elixir-text">5/10</span>
+                    </div>
+                    <div class="cards-hand" id="hand-container"></div>
+                    <div class="next-card">
+                        <span>Sig:</span>
+                        <div id="next-card-slot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 5. PANTALLA RESULTADOS -->
+        <div id="result-screen" class="screen hidden">
+            <h1 id="result-title">VICTORIA</h1>
+            <button id="btn-return-home" class="btn-juicy big-btn">Menu Principal</button>
+        </div>
+
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
