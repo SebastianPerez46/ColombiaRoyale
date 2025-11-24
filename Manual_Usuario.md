@@ -103,10 +103,11 @@ Si el tiempo se acaba y ninguna torre ha caido, perdera el que tenga las torres 
 ## Policía
 <img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/b1d8e4fa-5cca-455e-bde2-215ab39ea858" />
 
+
 - Tipo: Tropa
 - Coste: 4
 - Descripción: Unidad a distancia que mantiene el orden.
-- 
+  
 **Estadísticas:**
 - Vida: 500
 - Daño: 250
@@ -120,7 +121,9 @@ Si el tiempo se acaba y ninguna torre ha caido, perdera el que tenga las torres 
 <img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/47af7b41-c81f-4eea-ac15-abf0d15be5d7" />
 
 - Tipo: Tropa
+  
 - Coste: 4
+  
 - Descripción: Peleador cuerpo a cuerpo con daño alto.
 
 **Estadísticas:**
@@ -134,9 +137,11 @@ Si el tiempo se acaba y ninguna torre ha caido, perdera el que tenga las torres 
 
 ## Policía Oscuro
 <img width="1024" height="1431" alt="image" src="https://github.com/user-attachments/assets/e36837cb-4dc5-40c0-b528-0e662adc9226" />
+
 - Tipo: Tropa
 - Coste: 4
 - Descripción: Unidad antidisturbios con escudo.
+  
 **Estadísticas:**
 - Vida: 1000
 - Daño: 180
@@ -148,6 +153,7 @@ Si el tiempo se acaba y ninguna torre ha caido, perdera el que tenga las torres 
 
 ## Campesino
 <img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/9d072b8b-4113-447c-86c6-add98b5acc09" />
+
 - Tipo: Tropa
 - Coste: 4
 - Descripción: Avanza rápido, salta el río y ataca torres directamente.
@@ -163,6 +169,7 @@ Si el tiempo se acaba y ninguna torre ha caido, perdera el que tenga las torres 
 
 ### Dron
 <img width="1024" height="1431" alt="image" src="https://github.com/user-attachments/assets/085fa7dc-0952-45d6-b8af-a9a111d9d60b" />
+
 - Tipo: Tropa
 - Coste: 3
 - Descripción: Unidad voladora de soporte.
@@ -178,6 +185,7 @@ Si el tiempo se acaba y ninguna torre ha caido, perdera el que tenga las torres 
 
 ## Skater
 <img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/78cfcec1-99c1-4d0b-94b6-dffb398e6879" />
+
 - Tipo: Tropa
 - Coste: 5
 - Descripción: Avanza rápidamente y golpea fuerte.
@@ -191,9 +199,9 @@ Si el tiempo se acaba y ninguna torre ha caido, perdera el que tenga las torres 
 
 ## HECHIZOS
 
-
 ### Piedras
 <img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/a88d9213-e15c-4ad6-8558-46f8ce3dcddf" />
+
 - Tipo: Hechizo
 - Coste: 2
 - Descripción: Daño de área pequeño.
@@ -207,6 +215,7 @@ Si el tiempo se acaba y ninguna torre ha caido, perdera el que tenga las torres 
 
 ### Bomba
 <img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/65e1cbff-4423-44f4-bb76-6cc56f91755c" />
+
 - Tipo: Hechizo
 - Coste: 4
 - Descripción: Explosión fuerte en área reducida.
