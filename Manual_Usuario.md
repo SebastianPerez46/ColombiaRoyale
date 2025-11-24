@@ -78,7 +78,7 @@ Gymbro	Tropa	210	700	3
 
 ## TROPAS
 ### Indio
-<img width="353" height="626" alt="image" src="https://github.com/user-attachments/assets/1a84b192-2f1a-4d34-b3f7-d7f5b0c49318" />
+<img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/15bbb538-ecaa-463d-a553-c90ebd3597ec" />
 
 - Tipo: Tropa
 - Coste: 3
@@ -92,7 +92,7 @@ Gymbro	Tropa	210	700	3
 - Aereo: No
 
 ### Gigante
-<img width="1024" height="1432" alt="image" src="https://github.com/user-attachments/assets/29c8b2fd-56e3-4c90-b73f-efa34d2efe16" />
+<img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/f5236c9f-3899-4315-9883-7728f67af075" />
 
 - Tipo: Tropa
 - Coste: 5
@@ -108,7 +108,7 @@ Gymbro	Tropa	210	700	3
 - Aereo: No
 
 ### Policía
-<img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/f5236c9f-3899-4315-9883-7728f67af075" />
+<img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/b1d8e4fa-5cca-455e-bde2-215ab39ea858" />
 
 - Tipo: Tropa
 - Coste: 4
