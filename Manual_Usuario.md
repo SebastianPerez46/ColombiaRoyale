@@ -78,7 +78,8 @@ Gymbro	Tropa	210	700	3
 
 ## TROPAS
 ### Indio
-<img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/15bbb538-ecaa-463d-a553-c90ebd3597ec" />
+<img width="1024" height="1432" alt="image" src="https://github.com/user-attachments/assets/fb769ddc-ee22-4e43-9ce4-0139b39d1eb8" />
+
 
 - Tipo: Tropa
 - Coste: 3
