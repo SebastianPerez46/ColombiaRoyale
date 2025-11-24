@@ -103,8 +103,6 @@ Gymbro	Tropa	210	700	3
 - Vida: 2000
 - Daño: 150
 - Vel. de ataque: 1.5 s
-- Alcance: 1.0
-- Velocidad: 2
 - Objetivo: Estructuras
 - Aereo: No
 
@@ -119,160 +117,94 @@ Gymbro	Tropa	210	700	3
 - Vida: 500
 - Daño: 250
 - Vel. de ataque: 1.8 s
-- Alcance: 5.0
-- Velocidad: 3
 - Objetivo: Todos
 - Aereo: No
+  
+### Gymbro
+<img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/47af7b41-c81f-4eea-ac15-abf0d15be5d7" />
 
-Gymbro
+- Tipo: Tropa
+- Coste: 4
+- Descripción: Peleador cuerpo a cuerpo con daño alto.
 
-Tipo: Tropa
+**Estadísticas:**
+- Vida: 800
+- Daño: 250
+- Vel. de ataque: 1.8 s
+- Objetivo: Tierra
+- Aereo: No
 
-Coste: 4
-
-Descripción: Peleador cuerpo a cuerpo con daño alto.
-
-Estadísticas:
-
-Vida: 800
-
-Daño: 250
-
-Vel. de ataque: 1.8 s
-
-Alcance: 1.0
-
-Velocidad: 3.5
-
-Objetivo: Tierra
-
-¿Vuela?: No
-
-Policía Oscuro
-
-Tipo: Tropa
-
-Coste: 4
-
-Descripción: Unidad antidisturbios con escudo.
-
-Estadísticas:
-
-Vida: 1000
-
-Daño: 180
-
-Vel. de ataque: 1.5 s
-
-Alcance: 1.0
-
-Velocidad: 3.5
-
-Objetivo: Tierra
-
-¿Vuela?: No
+### Policía Oscuro
+<img width="1024" height="1431" alt="image" src="https://github.com/user-attachments/assets/e36837cb-4dc5-40c0-b528-0e662adc9226" />
+- Tipo: Tropa
+- Coste: 4
+- Descripción: Unidad antidisturbios con escudo.
+**Estadísticas:**
+- Vida: 1000
+- Daño: 180
+- Vel. de ataque: 1.5 s
+- Objetivo: Tierra
+- Aereo: No
 
 Campesino
+<img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/9d072b8b-4113-447c-86c6-add98b5acc09" />
+- Tipo: Tropa
+- Coste: 4
+- Descripción: Avanza rápido, salta el río y ataca torres directamente.
 
-Tipo: Tropa
+**Estadísticas:**
+- Vida: 800
+- Daño: 200
+- Vel. de ataque: 1.3 s
+- Objetivo: Estructuras
+- Aereo: No
 
-Coste: 4
-
-Descripción: Avanza rápido, salta el río y ataca torres directamente.
-
-Estadísticas:
-
-Vida: 800
-
-Daño: 200
-
-Vel. de ataque: 1.3 s
-
-Alcance: 1.0
-
-Velocidad: 4.5
-
-Objetivo: Estructuras
-
-¿Vuela?: No
-
-Dron
-
-Tipo: Tropa
-
-Coste: 3
-
-Descripción: Unidad voladora de soporte.
-
-Estadísticas:
-
-Vida: 150
-
-Daño: 100
-
-Vel. de ataque: 1.0 s
-
-Alcance: 2.0
-
-Velocidad: 3.5
-
-Objetivo: Cualquier tipo
-
-¿Vuela?: Sí
+### Dron
+<img width="1024" height="1431" alt="image" src="https://github.com/user-attachments/assets/085fa7dc-0952-45d6-b8af-a9a111d9d60b" />
+- Tipo: Tropa
+- Coste: 3
+- Descripción: Unidad voladora de soporte.
+  
+**Estadísticas:**
+- Vida: 150
+- Daño: 100
+- Vel. de ataque: 1.0 s
+- Objetivo: Cualquier tipo
+- Aereo: Sí
 
 Skater
+<img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/78cfcec1-99c1-4d0b-94b6-dffb398e6879" />
+- Tipo: Tropa
+- Coste: 5
+- Descripción: Avanza rápidamente y golpea fuerte.
 
-Tipo: Tropa
+**Estadísticas:**
+- Vida: 900
+- Daño: 300
+- Vel. de ataque: 1.5 s
+- Objetivo: Tierra
+- Aereo: No
 
-Coste: 5
+## HECHIZOS
 
-Descripción: Avanza rápidamente y golpea fuerte.
+### Piedras
+<img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/a88d9213-e15c-4ad6-8558-46f8ce3dcddf" />
+- Tipo: Hechizo
+- Coste: 2
+- Descripción: Daño de área pequeño.
 
-Estadísticas:
+**Estadísticas:**
+- Daño: 150
+- Radio: 2.5
+- Objetivo: Todos
 
-Vida: 900
+### Bomba
+<img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/65e1cbff-4423-44f4-bb76-6cc56f91755c" />
+- Tipo: Hechizo
+- Coste: 4
+- Descripción: Explosión fuerte en área reducida.
 
-Daño: 300
-
-Vel. de ataque: 1.5 s
-
-Alcance: 1.0
-
-Velocidad: 4.0
-
-Objetivo: Tierra
-
-¿Vuela?: No
-
-🟧 HECHIZOS
-Piedras
-
-Tipo: Hechizo
-
-Coste: 2
-
-Descripción: Daño de área pequeño.
-
-Estadísticas:
-
-Daño: 150
-
-Radio: 2.5
-
-Objetivo: Todos
-
-Bomba
-
-Tipo: Hechizo
-
-Coste: 4
-
-Descripción: Explosión fuerte en área reducida.
-
-Estadísticas:
-
-Daño: 400
-
-Radio: 2.0
-
-Objetivo: Todos
+**Estadísticas:**
+- Daño: 400
+- Radio: 2.0
+- Objetivo: Todos
