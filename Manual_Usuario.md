@@ -33,7 +33,8 @@ Cuando abres el juego, verás:
     En esta seccion se encontraran tres escenarios, Ingenieria, Medicina y Plaza che.
 - Botón "¡A PELEAR!" para iniciar la partida.
 - Botón "Ver Mazo"
-  <img width="352" height="638" alt="image" src="https://github.com/user-attachments/assets/1c87326b-29bb-4a34-81d5-359795d22c75" />
+  
+<img width="352" height="638" alt="image" src="https://github.com/user-attachments/assets/1c87326b-29bb-4a34-81d5-359795d22c75" />
 
 
 ### 4. Configuración del Mazo
@@ -46,6 +47,7 @@ En la parte de abajo hay 3 botones
 - "Confirmar"
 - "Cancelar"
  <img width="360" height="634" alt="image" src="https://github.com/user-attachments/assets/653ed3b5-d88b-48b2-9224-c314b6840cf4" />
+ 
 > Al final de el documento estan todas las cartas y sus estadisticas
 
 ### 5. Gameplay 
@@ -63,21 +65,9 @@ Si el tiempo se acaba y ninguna torre ha caido, perdera el que tenga las torres 
 <img width="353" height="626" alt="image" src="https://github.com/user-attachments/assets/f65c89de-56e2-48bb-b3a5-907dc859b007" />
 
 
-
-🃏 7. Cartas del Juego (Resumen)
-
-
-
-Carta	Tipo	Daño	Vida	Coste
-Indio	Tropa	120	600	3
-SMAD	Tropa	180	450	2
-Montaburra	Tropa	250	800	4
-Papa Bomba	Hechizo	300	—	5
-Gymbro	Tropa	210	700	3
-
-
 ## TROPAS
-### Indio
+
+## Indio
 <img width="1024" height="1432" alt="image" src="https://github.com/user-attachments/assets/fb769ddc-ee22-4e43-9ce4-0139b39d1eb8" />
 
 
@@ -92,7 +82,9 @@ Gymbro	Tropa	210	700	3
 - Objetivo: Todas las entidades.
 - Aereo: No
 
-### Gigante
+  
+
+## Gigante
 <img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/f5236c9f-3899-4315-9883-7728f67af075" />
 
 - Tipo: Tropa
@@ -106,7 +98,9 @@ Gymbro	Tropa	210	700	3
 - Objetivo: Estructuras
 - Aereo: No
 
-### Policía
+
+
+## Policía
 <img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/b1d8e4fa-5cca-455e-bde2-215ab39ea858" />
 
 - Tipo: Tropa
@@ -119,8 +113,10 @@ Gymbro	Tropa	210	700	3
 - Vel. de ataque: 1.8 s
 - Objetivo: Todos
 - Aereo: No
+
+
   
-### Gymbro
+## Gymbro
 <img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/47af7b41-c81f-4eea-ac15-abf0d15be5d7" />
 
 - Tipo: Tropa
@@ -134,7 +130,9 @@ Gymbro	Tropa	210	700	3
 - Objetivo: Tierra
 - Aereo: No
 
-### Policía Oscuro
+
+
+## Policía Oscuro
 <img width="1024" height="1431" alt="image" src="https://github.com/user-attachments/assets/e36837cb-4dc5-40c0-b528-0e662adc9226" />
 - Tipo: Tropa
 - Coste: 4
@@ -146,7 +144,9 @@ Gymbro	Tropa	210	700	3
 - Objetivo: Tierra
 - Aereo: No
 
-Campesino
+
+
+## Campesino
 <img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/9d072b8b-4113-447c-86c6-add98b5acc09" />
 - Tipo: Tropa
 - Coste: 4
@@ -158,6 +158,8 @@ Campesino
 - Vel. de ataque: 1.3 s
 - Objetivo: Estructuras
 - Aereo: No
+
+
 
 ### Dron
 <img width="1024" height="1431" alt="image" src="https://github.com/user-attachments/assets/085fa7dc-0952-45d6-b8af-a9a111d9d60b" />
@@ -172,7 +174,9 @@ Campesino
 - Objetivo: Cualquier tipo
 - Aereo: Sí
 
-Skater
+
+
+## Skater
 <img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/78cfcec1-99c1-4d0b-94b6-dffb398e6879" />
 - Tipo: Tropa
 - Coste: 5
@@ -187,6 +191,7 @@ Skater
 
 ## HECHIZOS
 
+
 ### Piedras
 <img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/a88d9213-e15c-4ad6-8558-46f8ce3dcddf" />
 - Tipo: Hechizo
@@ -197,6 +202,8 @@ Skater
 - Daño: 150
 - Radio: 2.5
 - Objetivo: Todos
+
+
 
 ### Bomba
 <img width="1024" height="1430" alt="image" src="https://github.com/user-attachments/assets/65e1cbff-4423-44f4-bb76-6cc56f91755c" />
